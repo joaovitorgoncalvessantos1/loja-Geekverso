@@ -1,0 +1,38 @@
+.cabecalho {
+  background-color: var(--background-header);
+  height: 125px;
+}
+.navegacao-img {
+  margin-left: 37px;
+}
+.navegacao-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navegacao-item a {
+  font-family: var(--font-principal);
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--backgraund-radape);
+  cursor: pointer;
+}
+.navegacao-item a:hover{
+    color:#300e1eaf;
+}
+
+
+
+@media (min-width: 80px)and (max-width:625px) {
+  /* Esconde o 2º, 3º e 4º item da lista */
+  .navegacao-list li:nth-of-type(2),
+  .navegacao-list li:nth-of-type(3),
+  .navegacao-list li:nth-of-type(4) {
+    display: none;
+
+  }
+
+}
+
+

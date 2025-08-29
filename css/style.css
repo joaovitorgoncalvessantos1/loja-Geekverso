@@ -1,0 +1,18 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('header.css');
+@import url('principal.css');
+@import url('produto.css');
+@import url('radape.css');
+
+:root{
+    /*Tipografia*/
+    --font-principal:  font-family: "Inter", sans-serif;;
+
+    /*Cores*/
+    --background-header:#FEEFFB;
+    --backgraund-radape:#401328;
+    --cor-texto-ligth:#f5e8f2;
+    --cor-texto-destaque:#FFEC7E;
+    --cor-texto-dark:#171717;
+}

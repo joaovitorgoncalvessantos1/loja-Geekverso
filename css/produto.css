@@ -1,0 +1,71 @@
+.produtos{
+    background-color: var(--backgraund-header);
+}
+.produtos-titulo {
+  padding: 1em;
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  font-family: var(--font-principal);
+  text-transform: uppercase;
+}
+
+.produtos-elementos {
+  display: flex;
+
+  justify-content: center;
+  padding: 1rem;
+  row-gap: 45px;
+  flex-wrap: wrap;
+  flex: 1 1 150px;
+
+}
+
+.elementos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem 1rem 0 1rem;
+  margin: 15px;
+  background-color: #d9d9d9;
+  border-radius: 1em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.elementos img {
+  border-radius: 1em;
+box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.elemento-texto {
+  padding: 1em 0;
+}
+
+.destaque-produto {
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.1em;
+}
+
+.elemento-preco {
+  padding: 0.5em 0;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.elemento-botao {
+  padding: 1rem;
+  background-color: var(--backgraund-radape);
+  border-radius: 32px;
+  margin: 0.9em 1.3em;
+
+  cursor: pointer;
+}
+
+.elemento-botao a {
+  color: var(--cor-texto-ligth);
+  text-decoration: none;
+}

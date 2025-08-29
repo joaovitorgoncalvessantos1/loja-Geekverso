@@ -1,0 +1,27 @@
+.rodape{
+    background-color: var(--backgraund-radape);
+    text-align: center;
+    padding: 1em;
+}
+.rodape-elementos{
+    padding: 1em;
+}
+.elemento-marca{
+    font-size: 24px;
+    padding: .3em;
+    color: var(  --cor-texto-ligth);
+}
+.copyright{
+    font-size: 20px;
+      padding: .3em;
+          color: var(  --cor-texto-ligth);
+}
+.direitos-autorais,.contato{
+    font-size: 20px;
+      padding: .3em;
+          color: var(  --cor-texto-ligth);
+}
+.icone{
+    padding: .5em;
+
+}

@@ -1,0 +1,44 @@
+.principal {
+  background-image: url(../assets/backgraund-full.jpg);
+  height: 82vh;             
+  width: 100%;              
+  display: flex;              
+  justify-content: center;    
+  align-items: center;       
+
+  background-size: cover;     
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.principal-elementos {
+  display: flex;
+  flex-direction: column;     /* título em cima, subtítulo embaixo */
+  align-items: center;        /* centraliza horizontal */
+  text-align: center;         /* centraliza texto */
+  gap: 20px;                  /* espaçamento entre os textos */
+  padding: 0 20px;            /* respiro nas laterais em telas menores */
+}
+
+.principal-titulo {
+  font-size: 5em;
+  font-weight: bold;
+  font-family: var(--font-principal);
+color: var( --cor-texto-ligth);            /* cor padrão */
+}
+
+.principal-destaque {
+  color: var(--cor-texto-destaque); /* sua cor de destaque */
+}
+
+.principal-subtitulo {
+  font-size: 1.5em;
+  color: white;
+}
+
+@media (min-width: 80px)and (max-width:625px) {
+.principal-titulo{
+  font-size:3em;
+
+}
+  }
